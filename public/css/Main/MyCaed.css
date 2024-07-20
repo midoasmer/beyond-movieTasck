@@ -1,0 +1,50 @@
+.container-me{
+    margin: auto;
+    max-width: 600px;
+}
+.max-width{
+    max-width: 400px;
+}
+table{
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+}
+/* strart sign up  */
+.container-me{
+    margin-bottom: 30px;
+}
+.Sign-up{
+    text-align: center;
+}
+.Sign-up .Sign-up__addres , .Sign-up__text{
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: black;   
+}
+.bg-img{
+    background-image: linear-gradient(180deg, #002C3E, #006B99),
+        url(../../images/img/signup.png);
+ 
+}
+.bg-img .bg-img__content{
+    margin-top: 50%;
+}
+.bg-img .bg-img__content .bg-img__content__logo{
+ font-size: 40px;
+ font-weight: bold;
+ color: white;
+
+}
+.mr{
+    margin:5px 10px 20px 10px;
+}
+@media(max-width:400px){
+    .table thead{
+    display: none;        
+    }
+    .table ,.table tbody , .table tr,.table td{
+        display: block;
+        width: 100%;
+    }
+}

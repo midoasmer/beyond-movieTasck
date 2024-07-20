@@ -1,0 +1,94 @@
+.overlay{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    transition: .6s;
+    display: none;
+}
+.checked {
+    color: orange;
+}
+.row .card .card-img{
+    position: relative;
+    overflow: hidden;
+    height: 50% ;
+    height: 250px;
+    background-size: cover;
+}
+
+@media (max-width:676px){
+    .row .card .card-img{
+
+        height: 200px;
+    }
+}
+.row .card .card-img img{
+    width: 100%;
+    height: 100%;
+}
+.row .card .card-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 4;
+    font-size: 60px;
+    color: white;
+    opacity: .8;
+    display: none;
+}
+.row .card .card-icon:hover{
+    opacity: 1;
+}
+.row .card:hover .card-icon{
+    display: block;
+}
+.row .card:hover .overlay {
+    display: block ;
+}
+.card .card-body p:first-child{
+    font-size: 16px;
+    color: #555;
+}
+.card .card-body h5{
+    margin: 10px 0;
+}
+.card .card-body p:nth-child(3){
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .card-body .see-more-btn{
+    display:inline-block ;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color:#3aafd2;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.card .card-img .new{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    background-color: rgb(69, 216, 69);
+    padding: 1px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    z-index: 10;
+}
+.row .card{
+    width: 100%;
+    transition: .4s;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 0 0 15px 5px rgb(1 1 1 / 10%);
+}
+.row .card:hover{
+    transform: scale(1.05);
+}

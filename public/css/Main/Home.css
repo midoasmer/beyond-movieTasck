@@ -1,0 +1,318 @@
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Start Variables */
+    :root{
+        --section-margin: 80px 0;
+    }
+/* End Variables */
+/* genric componts  */
+.none-border{
+    border-style:none ;
+}
+/* Start Slider */
+.carousel-inner{
+    height: 100vh;
+}
+.carousel-inner .carousel-item .slider-img{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    transform: translateX(20%);
+}
+.carousel-inner .carousel-item img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    transform: scaleX(1.7);
+    min-height: 100% !important;
+}
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100% ;
+
+}
+.carousel-inner .slider-01{
+    background-color: #3aafd2;
+}
+.carousel-inner .slider-02{
+    background-color: #f5b1b0;
+}
+.carousel-inner .slider-03{
+    background-color: #eba170;
+}
+.carousel-item .carousel-caption{
+    left: 0;
+    top: 50%;
+    transform: translate(15% , -50%);
+}
+.carousel-item .carousel-caption h4{
+    font-size: 40px;
+    font-weight: normal;
+}
+.carousel-item .carousel-caption h2{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 2;
+}
+.carousel-item .carousel-caption p{
+    font-size: 25px;
+    font-weight: normal;
+}
+.carousel-item .carousel-caption .slider-btn{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: red;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 25px;
+    opacity: .6;
+    transition: .3s;
+}
+.carousel-item .carousel-caption .slider-btn:hover{
+    opacity: 1;
+}
+.carousel-caption .slider-btn .slider-btn__icon{
+    margin-left: 10px;
+    align-self: center !important;
+}
+@media (max-width:991px){
+    .carousel-item .carousel-caption{
+        text-align: left !important;
+    }
+    .carousel-item .carousel-caption h4{
+        font-size: 30px !important;
+    }
+    .carousel-item .carousel-caption h2{
+        font-size: 40px !important;
+        line-height: 1.5 !important;
+    }
+}
+@media(max-width:676px){
+    .carousel-inner{
+        min-height: 150vh;
+    }
+    .carousel-inner .carousel-item .slider-img{
+        width: 100%;
+        transform: scaleX(.7);
+        height: 50%;
+    }
+    .carousel-item .carousel-caption{
+        text-align: center !important;
+        width: 90%;
+        height: 50%;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50% , 10%);
+    }
+    .carousel-item .carousel-caption h4{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .carousel-item .carousel-caption h2{
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 2;
+    }
+    .carousel-item .carousel-caption p{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .carousel-item .carousel-caption .slider-btn{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 20px;
+        background-color: red;
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 25px;
+        opacity: .6;
+        transition: .3s;
+    }
+}
+
+/* End Slider */
+
+/* Start About Us */
+    .about-us{
+        margin: var(--section-margin);
+    }
+    .about-us .about-us__img{
+        overflow: hidden;
+        position: relative;
+    }
+    .about-us .about-us__img img{
+        width: 100%;
+    }
+    .about-us .about-us__content p:first-child{
+        font-family: 'Kalam', cursive;
+        font-size: 25px;
+        font-weight: bold;
+        color: #7fd02c;
+    }
+    .about-us .about-us__content{
+        width: 90%;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .about-us .about-us__content h2{
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    .about-us .about-us__content .brief{
+        font-size: 16px;
+    }
+    .about-us .about-us__content .founder{
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .about-us .about-us__content .founder span:first-child{
+        color: #7fd02c;
+    }
+    .about-us .about-us__content .founder span:last-child{
+        font-family: 'Kalam', cursive;
+    }
+    .about-us .about-us__content .seo{
+        align-items: center !important;
+    }
+    .about-us .about-us__content .seo-img{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .about-us .about-us__content .seo-img img{
+        width: 100%;
+    }
+/* End About Us */
+
+/* Start Features  */
+    .features{
+        background-color: #2b3445;
+        color: white;
+        margin: var(--section-margin);
+        padding: var(--section-margin);
+    }
+    .features .feature-item{
+        display: flex;
+        padding: 0 !important;
+    }
+    @media(max-width:676px){
+        .features .feature-item{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .features  .header{
+        margin-bottom: 50px;
+    }
+    .features .feature-item >div>.icon{
+        font-size: 50px;
+        color: #fe696a;
+        margin-right: 15px;
+        padding-left: 10px;
+    }
+    .features .feature-item .text p:first-child{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .features .feature-item .text p:last-child{
+        font-size: 16px;
+        opacity: .5;
+    }
+/* End Features  */
+
+/* Start Trending Products */
+    .trending-products{
+        margin: 80px 0;
+    }
+    .trending-products .row .card{
+        width: 100% !important;
+    }
+    .trending-products h2{
+        margin-bottom: 40px;
+        color: #373f50;
+    }
+    .trending-products .more-products-btn{
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 30px;
+        color: #3aafd2;
+        border: 1px solid #3aafd2;
+        border-radius: 45px;
+        transition: .2s;
+    }
+    .trending-products .more-products-btn:hover{
+        color: white;
+        background-color:#3aafd2 ;
+    }
+/* End Trending Products */
+
+/*  Start Offer Section */
+    .offer{
+        margin: 80px 0;
+        padding: 60px 0;
+        background: radial-gradient(#fff,#ffd6d6);
+    }
+    .offer .row {
+        align-items: center;
+        justify-content: center;
+    }
+    .offer-content {
+        margin-top: 40px;
+    }
+    .offer-content h2{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .offer-content p{
+        font-size: 16px;
+        color: #555;
+    }
+    .offer-content .buy-now-btn{
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 10px 30px;
+        color: orangered;
+        border: 1px solid #cb582c;
+        border-radius: 45px;
+    }
+    .offer-content .buy-now-btn:hover{
+        color: white;
+        background-color:orangered ;
+    }
+    .offer .offer-img img{
+        width: 100%;
+    }
+/*  End Offer Section */
+
+/* To UP */
+.to-up{
+    position: fixed;
+    z-index: 999;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+}
+.to-up a{
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #3aafd2;
+    border-radius: 50%;
+
+}
+.to-up .icon{
+    color: white;
+}
+/* To UP */

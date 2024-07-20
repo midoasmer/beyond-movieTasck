@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Urbanist-Regular';
+  src: url(./Urbanist-Regular.eot);
+  src: url(./Urbanist-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Urbanist-Regular.otf) format('otf'),
+       url(./Urbanist-Regular.svg#Urbanist-Regular) format('svg'),
+       url(./Urbanist-Regular.ttf) format('truetype'),
+       url(./Urbanist-Regular.woff) format('woff'),
+       url(./Urbanist-Regular.woff2) format('woff2');
+}

@@ -1,0 +1,164 @@
+
+/* Said Bar */
+a{
+  text-decoration: none;
+}
+.dashboord__heder
+  {
+    font-size: 30px!important;
+  }
+  .prouduct__h2
+  {
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+.accordion__color
+{
+    background-color:#212529;
+    color:white;
+    border: none;
+    font-size: 30px;
+}
+.link__color
+{
+    display: inline-block;
+    font-size: 20px;
+    padding: 9px;
+    text-decoration: none;
+    color: white;
+}
+.link__color:hover
+{
+    color: #212529;
+    background-color:white;
+}
+.sidbar
+{
+    height: 700px;
+}
+.icons
+{
+    margin: 0 15px 0 0;
+}
+.dashboord__icon
+{
+    margin: 0 15px 0 0;
+    font-size: 25px;
+
+}
+
+/* End Said Bar */
+
+/* all_products */
+.buton
+{
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  padding: 0;
+}
+/* end all_products*/
+
+/* edit_product_form */
+.edit__product__form
+{
+  margin-top: 30px;
+}
+/* end edit_product_form */
+
+/* start media */
+@media  (max-width: 1080px) {
+  .dashboord__heder
+  {
+    font-size: 25px!important;
+  }
+  .accordion__content
+  {
+    padding: 2px;
+  }
+    .accordion__color
+  {
+      font-size: 20px;
+      margin: 0;
+      padding: 3px;
+      padding-left: 0;
+  }
+    .link__color
+    {
+        display: inline-block;
+        font-size: 15px;
+        padding: 0px;
+       
+    }
+    
+  }
+
+
+@media  (max-width: 767px) {
+  .dashboord__heder
+  {
+    font-size: 17px!important;
+  }
+  .accordion__content
+  {
+    padding: 2px;
+  }
+    .accordion__color
+  {
+      font-size: 16px;
+      margin: 0;
+      padding: 3px;
+      padding-left: 0;
+  }
+    .link__color
+    {
+        display: inline-block;
+        font-size: 10px;
+        padding: 0px;
+       
+    }
+
+  
+  .icons,.dashboord__icon
+  {
+    padding: 0;
+    margin: 0;
+    padding-right: 5px;
+  }
+    
+  }
+/* for mobail  */
+@media  (max-width: 550px) {
+.dashboord__heder
+{
+  font-size: 13px!important;
+}
+.accordion__content
+{
+  padding: 2px;
+}
+  .accordion__color
+{
+    font-size: 10px;
+    margin: 0;
+    padding: 3px;
+    padding-left: 0;
+}
+  .link__color
+  {
+      display: inline-block;
+      font-size: 8px;
+      padding: 0px;
+      width: 100%;
+     
+  }
+  .icons,.dashboord__icon
+{
+   display: none;
+}
+.sidbar
+{
+    padding: 5px;
+}
+}
+/* end media */

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.about-us{
+    margin-top: 60px;
+}
+.about-us-content h2{
+    font-size: 40px;
+}
+
+.about-us-content p{
+    line-height: 1.5;
+}
+
+.about-us-image img{
+    max-width: 100%;
+    opacity: 0.8;
+    transition: .3s;
+}
+.about-us-image img:hover{
+    opacity: 1;
+}
+.about-us-link{
+    margin-top: 20px;
+    display: inline-block;
+}
